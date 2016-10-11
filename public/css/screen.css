@@ -1,0 +1,203 @@
+/***
+*
+*   Custom CSS for Calbee
+*
+*
+******/
+
+body
+{ background: #FFF; }
+
+.clear
+{ clear: both; display: block; }
+
+.navbar-fixed-top
+{ background: #FFF; border-bottom: 1px solid #EBEBEB; }
+
+	.navbar-fixed-top ul.top-nav
+	{ background: #3b78e7; margin-right: 0; width: 100%; }
+
+		.navbar-fixed-top ul.top-nav li
+		{ color: #FFF; font-size: 15px; line-height: 50px; }
+
+			.navbar-fixed-top ul.top-nav li a,
+			.navbar-fixed-top ul.top-nav li a:visited
+			{ color: #FFF; font-size: 15px; }
+
+		.navbar-fixed-top ul.top-nav li.left
+		{ border-right: 1px solid #EBEBEB; margin: 0 0 0 225px; padding: 0 20px 0 0; }
+
+			.navbar-fixed-top ul.top-nav li.left a,
+			.navbar-fixed-top ul.top-nav li.left a:visited
+			{ padding: 15px 0; }
+
+				.navbar-fixed-top ul.top-nav li.left a i.fa-plus
+				{}
+
+			.navbar-fixed-top ul.top-nav li a:hover,
+			.navbar-fixed-top ul.top-nav li a:focus
+			{ background: none; color: #FFF; }
+
+		.navbar-fixed-top ul.top-nav li.logout
+		{ float: right; }
+
+		.navbar-fixed-top ul.top-nav li.user
+		{ float: right; }
+
+.navbar-fixed-top .side-nav
+{ background: #F7F7F7; border-right: 1px solid #EBEBEB; top: 0; }
+
+	.navbar-fixed-top .side-nav li
+	{ border-bottom: 1px solid #ebebeb; }
+
+		.navbar-fixed-top .side-nav li a,
+		.navbar-fixed-top .side-nav li a:visited
+		{ font-size: 15px; padding: 12px 25px; }
+
+		.navbar-fixed-top .side-nav li a:hover,
+		.navbar-fixed-top .side-nav li a:focus
+		{ background: #FFF !important; border-right: 1px solid #EBEBEB; color: #333; padding: 12px 25px 12px 21px; }
+
+			.navbar-fixed-top .side-nav li a i
+			{ float: right; }
+
+			.navbar-fixed-top .side-nav li a:hover i,
+			.navbar-fixed-top .side-nav li a:focus i
+			{ display: none; }
+
+	.navbar-fixed-top .side-nav li.active
+	{}
+
+		.navbar-fixed-top .side-nav li.active a,
+		.navbar-fixed-top .side-nav li.active a:visited
+		{ background: #FFF !important; border-left: 4px solid #ea533f; color: #333; padding: 12px 25px 12px 21px; }
+
+			.navbar-fixed-top .side-nav li.active a i
+			{ display: none; }
+
+	.navbar-fixed-top .side-nav li.logo
+	{ width: 224px; }
+
+		.navbar-fixed-top .side-nav li.logo a.main-brand
+		{ background: url(../images/logo-main.png) no-repeat 0 0 !important; border: 0 none !important; height: 65px; margin: 33px 0 45px 25px; padding: 0; text-indent: -9999px; width: 172px; }
+
+		.navbar-fixed-top .side-nav li.active a.main-brand:hover,
+		.navbar-fixed-top .side-nav li.active a.main-brand:focus
+		{ background: none !important; border-right: 0 none; }
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form
+{ border: 0 none; }
+
+/**	Content **/
+
+#page-wrapper
+{ padding: 0; }
+
+.container-fluid
+{ padding: 0; }
+
+	a.btn-new-product,
+	a.btn-new-product:visited
+	{ background: #FFF; border: 1px solid #333; border-radius: 3px; clear: both; color: #333; display: block; height: 40px; line-height: 40px; margin: 20px 30px; text-align: center; width: 15%; }
+
+	a.btn-new-product:hover
+	{ text-decoration: none; }
+
+	.container-fluid ul.tab
+	{ background: #F7F7F7; height: 36px; margin: 20px 0; padding: 0; }
+
+		.container-fluid ul.tab li
+		{ border-right: 1px solid #EBEBEB; float: left; height: 36px; line-height: 36px; list-style: none; }
+
+			.container-fluid ul.tab li a, .container-fluid ul.tab li a:visited
+			{ color: #333; float: left; line-height: 36px; padding: 0 40px; }
+
+			.container-fluid ul.tab li a
+			{ text-decoration: none; }
+
+		.container-fluid ul.tab li.active
+		{} 
+
+			.container-fluid ul.tab li.active a, .container-fluid ul.tab li.active a:visited
+			{ border-bottom: 4px solid #ea533f; color: #333; height: 36px; line-height: 31px; padding: 2px 40px 0; }
+
+#page-wrapper .container-fluid .row
+{ margin: 10px 25px; }
+
+	h1.page-header
+	{ border: 0 none; font-size: 16px; margin: 0; padding: 0; }
+
+/**	Form Box **/
+
+section.form-box
+{ border: 1px solid #EBEBEB; border-radius: 5px; margin: 0 25px; padding: 10px 20px; }
+
+	section.form-box .form-container
+	{}
+
+		section.form-box .form-container fieldset label
+		{ color: #666; font-weight: normal; }
+
+		section.form-box .form-container .top
+		{ clear: both; display: block; float: left; margin: 0 0 25px; width: 100%; }
+
+			section.form-box .form-container .top fieldset
+			{ float: left; margin: 0 80px 0 0; }
+
+		section.form-box .form-container .half
+		{ float: left; width: 48%; }
+
+			section.form-box .form-container .half fieldset
+			{ float: left; margin: 0 0 8px; width: 100%; }
+
+				section.form-box .form-container .half fieldset label
+				{ float: left; line-height: 35px; margin: 0; padding: 0; width: 38%; }
+
+				section.form-box .form-container .half fieldset input[type=text]
+				{ border: 1px solid #a2a2a2; float: right; line-height: 35px; padding: 0 2%; width: 58% }
+
+				section.form-box .form-container .half fieldset select
+				{ border: 1px solid #a2a2a2; float: right; height: 35px; line-height: 35px; width: 58% }
+
+				section.form-box .form-container .half fieldset textarea
+				{ border: 1px solid #a2a2a2; float: right; height: 82px; line-height: normal; padding: 8px 2%; width: 58% }
+
+		section.form-box .form-container .half-last
+		{ float: right; }
+
+			section.form-box .form-container .half-last fieldset
+			{}
+
+		section.form-box .form-container .buttons
+		{ float: right; margin: 70px 0 30px; }
+
+			section.form-box .form-container .buttons a.btn-save
+			{ background: #EDEDED; border: 1px solid #DDD; border-radius: 3px; color: #666; float: left; height: 29px; line-height: 29px; margin: 0 0 0 10px; padding: 0 10px; text-decoration: none; }
+
+			section.form-box .form-container .buttons a.btn-delete
+			{ background: #EDEDED; border: 1px solid #DDD; border-radius: 3px; color: #666; float: left; height: 29px; line-height: 29px; margin: 0 0 0 10px; padding: 0 10px; text-decoration: none; }
+
+			section.form-box .form-container .buttons a.btn-publish,
+			section.form-box .form-container .buttons a.btn-publish:visited
+			{ background: #f3624f; border: 1px solid #eb4e3a; border-radius: 3px; color: #FFF; float: left; height: 29px; line-height: 26px; margin: 0 0 0 10px; padding: 0 20px; text-decoration: none; }
+
+/**	Login **/
+
+.wrapper-login
+{ padding: 0 !important; }
+
+.container
+{}
+
+	.container .form-signin
+	{ margin: 0 auto; width: 30%; }
+
+		.container .form-signin h2
+		{ text-align: center; }
+
+		.container .form-signin input[type=email],
+		.container .form-signin input[type=password]
+		{ border: 1px solid #a2a2a2; border-radius: 0; float: right; line-height: 35px; margin: 0 0 5px; padding: 0 2%; width: 100%; }
+
+		.container .form-signin button.btn-lg
+		{ background: #f3624f; border: 1px solid #eb4e3a; border-radius: 3px; color: #fff; float: left; height: 40px; line-height: 38px; padding: 0 20px; text-decoration: none; }
