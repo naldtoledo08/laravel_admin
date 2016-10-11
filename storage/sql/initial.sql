@@ -3,6 +3,8 @@ SQLyog Ultimate v8.82
 MySQL - 5.6.17 : Database - site_admin
 *********************************************************************
 */
+
+
 /*Table structure for table `migrations` */
 
 DROP TABLE IF EXISTS `migrations`;
@@ -11,6 +13,9 @@ CREATE TABLE `migrations` (
   `migration` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `batch` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+/*Data for the table `migrations` */
+
 
 /*Table structure for table `pages` */
 
@@ -32,7 +37,7 @@ CREATE TABLE `pages` (
 
 /*Data for the table `pages` */
 
-insert  into `pages`(`id`,`name`,`url`,`type`,`parent_id`,`is_parent`,`role_access`,`active`,`created_at`,`updated_at`) values (1,'Users','/user',1,0,0,NULL,1,'2016-10-10 00:00:01',NULL),(2,'Roles','/role',1,0,0,NULL,1,'2016-10-10 00:00:01',NULL),(3,'Pages','/page',1,0,0,NULL,1,'2016-10-10 00:00:01',NULL);
+insert  into `pages`(`id`,`name`,`url`,`type`,`parent_id`,`is_parent`,`role_access`,`active`,`created_at`,`updated_at`) values (1,'Users','/user',1,0,0,'1',1,'2016-10-10 00:00:01',NULL),(2,'Roles','/role',1,0,0,'1',1,'2016-10-10 00:00:01',NULL),(3,'Pages','/page',1,0,0,'1:2',1,'2016-10-10 00:00:01',NULL);
 
 /*Table structure for table `password_resets` */
 
